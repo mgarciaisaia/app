@@ -37,11 +37,11 @@
             option(value='Docente') Docente
       .form-group
         label= t('Password')
-        input.form-control(type='password', name='password', tabindex=4, placeholder=t('Password'), validate='required min-length:6')
+        input.form-control(type='password', name='password', tabindex=6, placeholder=t('Password'), validate='required min-length:6')
       .form-group
         label= t('Re-type password')
-        input.form-control(type='password', name='re_password', tabindex=5, placeholder=t('Repeat Password'), validate='required same:password')
-      .form-group: button.btn.btn-success.btn-block.btn-lg(tabindex=6)=t('Signup now!')
+        input.form-control(type='password', name='re_password', tabindex=7, placeholder=t('Repeat Password'), validate='required same:password')
+      .form-group: button.btn.btn-success.btn-block.btn-lg(tabindex=8)=t('Signup now!')
       .form-group
         - var tos = config['tos'];
         - var pp = config['pp'];
